@@ -1,0 +1,43 @@
+---
+title: "Supplement for ... opacity article by J. Nichols"
+output:
+  html_document:
+    theme: spacelab
+    highlight: pygments
+    code_folding: hide
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message = FALSE, warning = FALSE, fig.width=7.5)
+```
+
+### Map
+
+This site is supplement to ... 
+
+```{r}
+library(lingtypology)
+library(leaflet.extras)
+library(readr)
+library(dplyr)
+read_csv("opacity.csv") %>% 
+  arrange(Opacity) ->
+  opacity
+map.feature(opacity$language2,
+            features = opacity$Opacity,
+            label = opacity$Language,
+            color = c("white", "lightblue", "black"),
+            title = "Opacity") %>% 
+  addFullscreenControl()
+```
+
+This map created with `lingtyplogy` and `leaflet.extras` packages:
+
+* Moroz G (2018). lingtypology: easy mapping for Linguistic
+Typology. URL: <https://CRAN.R-project.org/package=lingtypology>.
+* Bhaskar Karambelkar. (2018) leaflet.extras: Extra Functionality
+  for 'leaflet' Package.
+  
+### Citation
+Cite this site refere to ... article...
