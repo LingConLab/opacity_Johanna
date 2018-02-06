@@ -11,6 +11,7 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(message = FALSE, warning = FALSE, fig.width=7.5)
 ```
+[![DOI](https://zenodo.org/badge/119826536.svg)](https://zenodo.org/badge/latestdoi/119826536)
 
 ### Map
 
