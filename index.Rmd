@@ -14,7 +14,7 @@ knitr::opts_chunk$set(message = FALSE, warning = FALSE, fig.width=7.5)
 
 ### Map
 
-This site is supplement to ... new idea
+This site is a supplement to Johanna Nichols, Canonical complexity. Peter Arkadiev and Francesco Gardani, eds., Morphological complexity.  Oxford University Press, in press. 
 
 ```{r}
 library(lingtypology)
