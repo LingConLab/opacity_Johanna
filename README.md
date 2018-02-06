@@ -1,1 +1,3 @@
+[![DOI](https://zenodo.org/badge/119826536.svg)](https://zenodo.org/badge/latestdoi/119826536)
+
 This is a suplement to article ...
